@@ -17,7 +17,7 @@ const SearchMedicines = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.get(`http://localhost:5000/api/${searchQuery}`, {
+      const response = await axios.get(`idealmedico-backend-production.up.railway.app/${searchQuery}`, {
         params: { query: searchQuery }
       });
 

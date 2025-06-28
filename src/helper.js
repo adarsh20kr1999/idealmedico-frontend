@@ -1,1 +1,1 @@
-export const BASE_URL = "https://idealmedico-backend.onrender.com"
+export const BASE_URL = "idealmedico-backend-production.up.railway.app"
